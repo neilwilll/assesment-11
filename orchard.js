@@ -264,6 +264,6 @@ console.log(pinkProfit);
     Log `totalProfit` to the console.
 */
 
-// CODE HERE
+// CODE HERE money
 const totalProfit = fujiProfit + galaProfit + pinkProfit;
 console.log(totalProfit);
