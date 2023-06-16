@@ -9,7 +9,7 @@ const myName = "Your Name";
 /* Create a variable called 'faveNum' with a value that is your favorite number. */
 
 //CODE HERE
-const faveNum= "faveNum"
+const faveNum= 5
 
 //////////////////PROBLEM 3////////////////////
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
@@ -26,7 +26,6 @@ const lovesCode = true;
 */
 
 //CODE HERE
-const FaveNum = 7;
 
 if (faveNum === 13) {
   console.log('lucky 13!');
@@ -41,7 +40,6 @@ if (faveNum === 13) {
 */
 
 //CODE HERE
-const faveNum = 7;
 
 for (let i = 0; i < 5; i++) {
   console.log(faveNum);

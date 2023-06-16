@@ -57,7 +57,6 @@ const pinkRevenue = pinkPounds * pinkPrice / 100;
 // CODE HERE
 
 let totalAcres = 0;
-
 for (let i = 0; i < fujiAcres.length; i++) {
   totalAcres += fujiAcres[i];
   totalAcres += galaAcres[i];
@@ -83,8 +82,8 @@ console.log(totalAcres);
 */
 
 // CODE HERE
-const totalAcres = fujiAcres.reduce((acc, val) => acc + val, 0)
-const averageDailyAcres = totalAcres / fujiAcres.length
+const trees = fujiAcres.reduce((acc, val) => acc + val, 0)
+const averageDailyAcres = trees / fujiAcres.length
 console.log(averageDailyAcres)
 
 
